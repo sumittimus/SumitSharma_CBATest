@@ -10,7 +10,7 @@
 
 	<name>api-automation</name>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url>https://petstore.swagger.io/#/</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,13 +31,12 @@
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>5.3.0</version>
-			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.1.0</version>
+			<version>5.0.9</version>
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->

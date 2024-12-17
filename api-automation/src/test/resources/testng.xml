@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetStore API Test Suite" parallel="methods" thread-count="4">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="Pet Store Tests">
+        <classes>
+            <class name="tests.PetEndpointTests"/>
+        </classes>
+    </test>
+</suite>
