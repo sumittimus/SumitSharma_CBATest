@@ -46,4 +46,4 @@ mvn test
 ----NOW TESTING---------------
 ----Testing AGain------------
 -----TESTING CI INTEGRATION------------
----Successful Testing of CI Integration-----
+---Successful Testing of CI Integration---
