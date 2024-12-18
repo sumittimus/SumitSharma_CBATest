@@ -38,7 +38,7 @@ public class PetEndpointTests extends BaseTest {
 
         Response response = api.get(endpoint);
 
-        Assert.assertEquals(response.statusCode(), 200, "Failed to fetch the pet.");
+        Assert.assertEquals(response.statusCode(), 200, "Failed to fetch the pet."+petId);
         Assert.assertEquals(response.jsonPath().getInt("id"), petId, "Pet ID mismatch.");
     }
 
