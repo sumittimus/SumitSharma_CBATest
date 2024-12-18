@@ -54,6 +54,9 @@ public class PetEndpointTests extends BaseTest {
         Assert.assertEquals(response.jsonPath().getString("name"), "UpdatedPet", "Pet name was not updated.");
         Assert.assertEquals(response.jsonPath().getString("status"), "sold", "Pet status was not updated.");
     }
+    
+  //testDeletePet:fails sometimes since the pet id is already existing since the ID is not generated randomly and the execution happens parallel. Rerun of the test suite
+ // fixes the issue. 
 
     @Test(description = "Delete an existing pet by its ID.")
     public void testDeletePet() {
