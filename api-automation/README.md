@@ -42,8 +42,5 @@ mvn test
 3. docker run sumitsharma-cbatest
 
 ## CI Pipeline Integration
----- IN PROGRESS --------------
-----NOW TESTING---------------
-----Testing AGain------------
------TESTING CI INTEGRATION------------
----Successful Testing of CI Integration---
+----------COMPLETED---------------
+https://github.com/sumittimus/SumitSharma_CBATest/actions/workflows/main.yml
