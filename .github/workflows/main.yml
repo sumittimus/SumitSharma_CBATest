@@ -20,4 +20,6 @@ jobs:
           java-version: '17'
 
       - name: Build and test
+        working-directory: ./api-automation
         run: mvn clean test
+
