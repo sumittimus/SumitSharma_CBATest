@@ -41,6 +41,8 @@ mvn test
 2. docker build -t sumitsharma-cbatest .
 3. docker run sumitsharma-cbatest
 
+###TESTING CI######
+
 ## CI Pipeline Integration
----- IN PROGRESS --------------
-----NOW TESTING---------------
+---- IN PROGRESS ----------------
+----NOW TESTING------------------
