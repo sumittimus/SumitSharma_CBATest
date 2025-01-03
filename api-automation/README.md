@@ -11,7 +11,7 @@ It focuses on:
 3.	ExtentReports for Reporting.
 4.	Fluent API style for writing test cases.
 5.	Java 17 compatibility.
-6.	Docker Integration for CI pipelines (using Maven and TestNG). (DOCKER INTEGRATION COMPLETED. CI INTEGRATION IN PROGRESS)
+6.	Docker Integration for CI pipelines (using Maven and TestNG). (DOCKER INTEGRATION COMPLETED. CI INTEGRATION COMPLETED As Well)
 7.	Configurable properties with a config.properties file.
 
 
